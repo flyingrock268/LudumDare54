@@ -1,0 +1,13 @@
+res://boxes/center_box.tscn
+res://boxes/corner_box.tscn
+res://boxes/edge_box.tscn
+res://resources/resource.tscn
+res://boxes/Box.cs
+res://resource.cs
+res://resources/main.tscn
+res://Player.cs
+res://StartMenu.cs
+res://resources/MainMenu.tscn
+res://main.tscn
+res://sfx/credits.txt
+res://MainMenu.tscn

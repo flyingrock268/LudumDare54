@@ -1,0 +1,13 @@
+Label
+Control
+Button
+Camera2D
+AudioStreamPlayer
+AudioStreamPlayer2D
+Container
+Sprite2D
+Node2D
+Timer
+CollisionShape2D
+Area2D
+TileMap

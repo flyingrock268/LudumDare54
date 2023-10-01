@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://c5cprcqtskr67"]
+
+[ext_resource type="Script" path="res://boxes/Box.cs" id="1_g1i85"]
+[ext_resource type="Texture2D" uid="uid://crvy0w1olaabb" path="res://boxes/sprite/cornerBox.png" id="1_radbw"]
+[ext_resource type="PackedScene" uid="uid://c1rw008bvlr3n" path="res://resources/resource.tscn" id="2_3nhdh"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_oxdj4"]
+size = Vector2(64, 64)
+
+[node name="cornerBox" type="Area2D"]
+script = ExtResource("1_g1i85")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_radbw")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_oxdj4")
+
+[node name="resource" parent="." instance=ExtResource("2_3nhdh")]
+
+[node name="Timer" type="Timer" parent="."]

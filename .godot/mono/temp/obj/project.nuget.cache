@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "B9Nxdb7tYX6MzXLDBH1saVTVVfXaP4jsJ2d4t/7SjzEQsNj4ewg6fprCTfJFCAp9XmFs6JvcQ5ZTpQw5gtn+0g==",
+  "success": true,
+  "projectFilePath": "D:\\Godot projects\\LudumDare\\Ludum Dare.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\baj24\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\baj24\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\baj24\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.22\\microsoft.netcore.app.runtime.win-x64.6.0.22.nupkg.sha512",
+    "C:\\Users\\baj24\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.22\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.22.nupkg.sha512",
+    "C:\\Users\\baj24\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.22\\microsoft.aspnetcore.app.runtime.win-x64.6.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

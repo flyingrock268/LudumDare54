@@ -1,0 +1,17 @@
+D:\Godot projects\LudumDare\.godot\mono\temp\bin\Debug\Ludum Dare.deps.json
+D:\Godot projects\LudumDare\.godot\mono\temp\bin\Debug\Ludum Dare.runtimeconfig.json
+D:\Godot projects\LudumDare\.godot\mono\temp\bin\Debug\Ludum Dare.dll
+D:\Godot projects\LudumDare\.godot\mono\temp\bin\Debug\Ludum Dare.pdb
+D:\Godot projects\LudumDare\.godot\mono\temp\bin\Debug\GodotSharp.dll
+D:\Godot projects\LudumDare\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\Ludum Dare.csproj.AssemblyReference.cache
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\Ludum Dare.GeneratedMSBuildEditorConfig.editorconfig
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\Ludum Dare.AssemblyInfoInputs.cache
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\Ludum Dare.AssemblyInfo.cs
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\Ludum Dare.csproj.CoreCompileInputs.cache
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\Ludum Dare.csproj.CopyComplete
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\Ludum Dare.dll
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\refint\Ludum Dare.dll
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\Ludum Dare.pdb
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\Ludum Dare.genruntimeconfig.cache
+D:\Godot projects\LudumDare\.godot\mono\temp\obj\Debug\ref\Ludum Dare.dll

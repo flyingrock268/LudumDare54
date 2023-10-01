@@ -1,0 +1,240 @@
+[gd_scene load_steps=8 format=3 uid="uid://cgdrw3p2fd5fj"]
+
+[ext_resource type="Script" path="res://StartMenu.cs" id="1_knc2v"]
+[ext_resource type="Texture2D" uid="uid://65a0ctjqa7hh" path="res://resources/playerPos.png" id="3_asrst"]
+[ext_resource type="Texture2D" uid="uid://dclcwhn7tib4" path="res://resources/WOOD.png" id="4_kybpp"]
+[ext_resource type="Texture2D" uid="uid://4qp0rbcvjwse" path="res://resources/STICK.png" id="5_exuk0"]
+[ext_resource type="Texture2D" uid="uid://3lovc780jwfj" path="res://resources/FORREST.png" id="6_5hmpx"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_1a65o"]
+font_size = 8
+
+[sub_resource type="LabelSettings" id="LabelSettings_aom1l"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_knc2v")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2.5, 2.5)
+
+[node name="Label" type="Label" parent="."]
+offset_left = -54.0
+offset_top = -120.0
+offset_right = 53.0
+offset_bottom = -94.0
+text = "Craft the King"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PlayButton" type="Button" parent="."]
+offset_left = -63.0
+offset_top = -50.0
+offset_right = 62.0
+offset_bottom = -15.0
+text = "Play"
+
+[node name="TutButton" type="Button" parent="."]
+offset_left = -63.0
+offset_top = -1.0
+offset_right = 62.0
+offset_bottom = 34.0
+text = "How to Play"
+
+[node name="CreditsButton" type="Button" parent="."]
+offset_left = -63.0
+offset_top = 46.0
+offset_right = 62.0
+offset_bottom = 81.0
+text = "Credits
+"
+
+[node name="ExitButton" type="Button" parent="."]
+offset_left = -63.0
+offset_top = 92.0
+offset_right = 62.0
+offset_bottom = 127.0
+text = "Exit"
+
+[node name="ReturnButton" type="Button" parent="."]
+offset_left = 626.0
+offset_top = 92.0
+offset_right = 751.0
+offset_bottom = 127.0
+text = "Return"
+
+[node name="ReturnButton2" type="Button" parent="."]
+offset_left = 1141.0
+offset_top = 92.0
+offset_right = 1266.0
+offset_bottom = 127.0
+text = "Return"
+
+[node name="TutorialGroup" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1141.0
+offset_top = 92.0
+offset_right = 1181.0
+offset_bottom = 132.0
+
+[node name="Label" type="Label" parent="TutorialGroup"]
+layout_mode = 0
+offset_left = -845.0
+offset_top = -211.0
+offset_right = -805.0
+offset_bottom = -188.0
+text = "You are the red square"
+
+[node name="Label3" type="Label" parent="TutorialGroup"]
+layout_mode = 0
+offset_left = -845.0
+offset_top = -177.0
+offset_right = -668.0
+offset_bottom = -151.0
+text = "Move with WASD"
+
+[node name="Label5" type="Label" parent="TutorialGroup"]
+layout_mode = 0
+offset_left = -845.0
+offset_top = -42.0
+offset_right = -559.0
+offset_bottom = -16.0
+text = "Selected Square is highlighted Yellow"
+
+[node name="Label10" type="Label" parent="TutorialGroup"]
+layout_mode = 0
+offset_left = -845.0
+offset_top = -8.0
+offset_right = -559.0
+offset_bottom = 44.0
+text = "Use the Move Button to swap selected and current position"
+autowrap_mode = 2
+
+[node name="Label6" type="Label" parent="TutorialGroup"]
+layout_mode = 0
+offset_left = -847.0
+offset_top = -141.0
+offset_right = -561.0
+offset_bottom = -115.0
+text = "Craft with the E key"
+
+[node name="Label7" type="Label" parent="TutorialGroup"]
+layout_mode = 0
+offset_left = -845.0
+offset_top = -100.0
+offset_right = -559.0
+offset_bottom = -74.0
+text = "Crafting with different things nerby can cause diffent things to be made"
+autowrap_mode = 2
+
+[node name="Label2" type="Label" parent="TutorialGroup"]
+layout_mode = 0
+offset_left = -591.0
+offset_top = -211.0
+offset_right = -414.0
+offset_bottom = -185.0
+text = "(I couldn't be bothered to make a better one)"
+label_settings = SubResource("LabelSettings_1a65o")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="TutorialGroup"]
+layout_mode = 0
+offset_left = -707.0
+offset_top = -177.0
+offset_right = -530.0
+offset_bottom = -151.0
+text = "(or arrows if you're weird I guess)"
+label_settings = SubResource("LabelSettings_1a65o")
+vertical_alignment = 1
+
+[node name="Label8" type="Label" parent="TutorialGroup"]
+layout_mode = 0
+offset_left = -491.0
+offset_top = -129.0
+offset_right = -314.0
+offset_bottom = -103.0
+text = "="
+label_settings = SubResource("LabelSettings_aom1l")
+vertical_alignment = 1
+
+[node name="Label9" type="Label" parent="TutorialGroup"]
+layout_mode = 0
+offset_left = -449.0
+offset_top = -70.0
+offset_right = -272.0
+offset_bottom = -44.0
+text = "="
+label_settings = SubResource("LabelSettings_aom1l")
+vertical_alignment = 1
+
+[node name="PlayerPos" type="Sprite2D" parent="TutorialGroup"]
+position = Vector2(-630, -200)
+texture = ExtResource("3_asrst")
+
+[node name="Wood" type="Sprite2D" parent="TutorialGroup"]
+position = Vector2(-523, -114)
+texture = ExtResource("4_kybpp")
+
+[node name="Stick" type="Sprite2D" parent="TutorialGroup"]
+position = Vector2(-448, -112)
+texture = ExtResource("5_exuk0")
+
+[node name="Wood2" type="Sprite2D" parent="TutorialGroup"]
+position = Vector2(-526, -57)
+texture = ExtResource("4_kybpp")
+
+[node name="Wood3" type="Sprite2D" parent="TutorialGroup"]
+position = Vector2(-478, -56)
+texture = ExtResource("4_kybpp")
+
+[node name="Forrest" type="Sprite2D" parent="TutorialGroup"]
+position = Vector2(-408, -54)
+texture = ExtResource("6_5hmpx")
+
+[node name="CreditsGroup" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 1024.0
+offset_right = 1064.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="CreditsGroup"]
+layout_mode = 0
+offset_left = -72.0
+offset_top = -124.0
+offset_right = 74.0
+offset_bottom = -98.0
+text = "Art done by myself"
+
+[node name="Label2" type="Label" parent="CreditsGroup"]
+layout_mode = 0
+offset_left = -111.0
+offset_top = -87.0
+offset_right = 107.0
+offset_bottom = -35.0
+text = "Music by Pascal Belisle
+www.patreon.com/thetoadz"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="CreditsGroup"]
+layout_mode = 0
+offset_left = -110.0
+offset_top = -21.0
+offset_right = 108.0
+offset_bottom = 31.0
+text = "Sound effects by JDwasabi"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="CreditsGroup"]
+layout_mode = 0
+offset_left = -229.0
+offset_top = 48.0
+offset_right = -11.0
+offset_bottom = 100.0
+text = "This game was made for Ludum Dare 54 with the prompt \"limited Space\""
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2

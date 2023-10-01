@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://qyvuk4p256x5"]
+
+[ext_resource type="Script" path="res://boxes/Box.cs" id="1_2w4hr"]
+[ext_resource type="Texture2D" uid="uid://b5myluw4b3iob" path="res://boxes/sprite/centerBox.png" id="1_oniya"]
+[ext_resource type="PackedScene" uid="uid://c1rw008bvlr3n" path="res://resources/resource.tscn" id="2_np23b"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_w6q13"]
+size = Vector2(64, 64)
+
+[node name="centerBox" type="Area2D"]
+script = ExtResource("1_2w4hr")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_oniya")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_w6q13")
+
+[node name="resource" parent="." instance=ExtResource("2_np23b")]
+
+[node name="Timer" type="Timer" parent="."]

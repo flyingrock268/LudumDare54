@@ -1,0 +1,45 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1696188150
+icon.svg::CompressedTexture2D::3617203403929591539::1696036459::1696036471::1::::<><>::
+main.tscn::PackedScene::5785650622371294612::1696188076::0::1::::<><>::res://Player.cs<>uid://c5cprcqtskr67::::res://boxes/corner_box.tscn<>uid://bu05bj2nbprfl::::res://boxes/edge_box.tscn<>uid://qyvuk4p256x5::::res://boxes/center_box.tscn<>uid://65a0ctjqa7hh::::res://resources/playerPos.png<>uid://2fux2dqcpaux::::res://Music by Pascal Belisle/platformer_level03.mp3<>uid://bccekc8khlupu::::res://sfx/Confirm 1.wav<>uid://dk4g6qqyjqaxl::::res://sfx/Select 1.wav<>uid://cybxhu7fwsqev::::res://sfx/Boss hit 1.wav<>uid://dd6j1kxmi82gu::::res://resources/CROWN.png<>uid://lqtvk58louja::::res://resources/THRONE.png
+Player.cs::CSharpScript::-1::1696188150::0::1::::<><>::
+resource.cs::CSharpScript::-1::1696144294::0::1::::<><>::
+StartMenu.cs::CSharpScript::-1::1696186113::0::1::::<><>::
+::res://boxes/::1696187696
+Box.cs::CSharpScript::-1::1696172496::0::1::::<><>::
+center_box.tscn::PackedScene::1173877907783804136::1696187696::0::1::::<><>::res://boxes/Box.cs<>uid://b5myluw4b3iob::::res://boxes/sprite/centerBox.png<>uid://c1rw008bvlr3n::::res://resources/resource.tscn
+corner_box.tscn::PackedScene::6883576676074485202::1696187696::0::1::::<><>::res://boxes/Box.cs<>uid://crvy0w1olaabb::::res://boxes/sprite/cornerBox.png<>uid://c1rw008bvlr3n::::res://resources/resource.tscn
+edge_box.tscn::PackedScene::3843630810894618721::1696187696::0::1::::<><>::uid://pely4l7jns65::::res://boxes/sprite/edgeBox.png<>res://boxes/Box.cs<>uid://c1rw008bvlr3n::::res://resources/resource.tscn
+::res://boxes/sprite/::1696037746
+centerBox.png::CompressedTexture2D::4518336463214912781::1696037254::1696037743::1::::<><>::
+cornerBox.png::CompressedTexture2D::6010906691071439123::1696037568::1696037745::1::::<><>::
+edgeBox.png::CompressedTexture2D::1061802453197369660::1696037612::1696037746::1::::<><>::
+::res://Music by Pascal Belisle/::1696184234
+music-pascal-public-license.txt::TextFile::-1::1695104837::0::1::::<><>::
+platformer_level03.mp3::AudioStreamMP3::1906677503607411991::1480834160::1696174865::1::::<><>::
+::res://resources/::1696187696
+CHAIR.png::CompressedTexture2D::5239180107673889388::1696143349::1696143676::1::::<><>::
+CROWN.png::CompressedTexture2D::7434417737266926100::1696142251::1696142262::1::::<><>::
+FIRE.png::CompressedTexture2D::2896861782976176313::1696135487::1696135608::1::::<><>::
+FORREST.png::CompressedTexture2D::1988883472743895939::1696131304::1696131365::1::::<><>::
+GEM.png::CompressedTexture2D::8063312921890784351::1696141294::1696142262::1::::<><>::
+GOLD.png::CompressedTexture2D::1430932745936159565::1696142018::1696142262::1::::<><>::
+GOLDORE.png::CompressedTexture2D::2676452608406651851::1696141918::1696142262::1::::<><>::
+HAMMER.png::CompressedTexture2D::4262808672047177983::1696139212::1696139527::1::::<><>::
+IRON.png::CompressedTexture2D::6805314631000100032::1696140169::1696140264::1::::<><>::
+IRONORE.png::CompressedTexture2D::5477119729426549320::1696139692::1696139839::1::::<><>::
+MINE.png::CompressedTexture2D::3833393834247191300::1696136020::1696136026::1::::<><>::
+PLANK.png::CompressedTexture2D::672492172855835597::1696141463::1696142262::1::::<><>::
+playerPos.png::CompressedTexture2D::2237830265076741205::1696088621::1696088627::1::::<><>::
+MainMenu.tscn::PackedScene::5201240533878974515::1696187696::0::1::::<><>::res://StartMenu.cs<>uid://coou25phk17ae::::res://main.tscn<>uid://65a0ctjqa7hh::::res://resources/playerPos.png<>uid://dclcwhn7tib4::::res://resources/WOOD.png<>uid://4qp0rbcvjwse::::res://resources/STICK.png<>uid://3lovc780jwfj::::res://resources/FORREST.png
+resource.tscn::PackedScene::6634227506618795665::1696187696::0::1::::<><>::res://resource.cs
+STICK.png::CompressedTexture2D::2069462803868085464::1696042141::1696042188::1::::<><>::
+STONE.png::CompressedTexture2D::1325585544852150393::1696039698::1696039699::1::::<><>::
+THRONE.png::CompressedTexture2D::806299021710154562::1696143670::1696143676::1::::<><>::
+TOOL.png::CompressedTexture2D::5055761434980523445::1696140709::1696140757::1::::<><>::
+WOOD.png::CompressedTexture2D::215367911891971031::1696040165::1696040169::1::::<><>::
+::res://sfx/::1696187613
+Boss hit 1.wav::AudioStreamWAV::6460848084002048877::1696184397::1696184411::1::::<><>::
+Confirm 1.wav::AudioStreamWAV::2531188008876810794::1696184126::1696184296::1::::<><>::
+credits.txt::TextFile::-1::1696187613::0::1::::<><>::
+Select 1.wav::AudioStreamWAV::7921437970088590889::1696184149::1696184296::1::::<><>::
